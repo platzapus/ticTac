@@ -1,0 +1,121 @@
+body{
+  color: white;
+  background: url('http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg') no-repeat center center fixed;
+  font-family: 'Fredericka the Great', cursive;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#title{
+  text-align: center;
+  font-size: 3em;
+  margin: 20px;
+}
+.hide{
+  display: none;
+}
+.container{
+}
+#playerSelect{
+  text-align: center;
+  border: 3px dashed white;
+  border-radius:3px;
+  margin: 0 10%;
+}
+#playerText{
+  font-size: 1.4em;
+}
+button{
+  margin: 1%;
+  
+}
+#xoSelect{
+  text-align: center;
+  border: 3px dashed white;
+  border-radius:3px;
+  margin: 0 10%;
+}
+.btn{
+  font-size:14px;
+}
+#foot{
+  margin: 0 auto;
+}
+#footy{
+  position:absolute;
+  bottom: 0;
+}
+#tBoard{
+  /*border: 2px dashed white;*/
+}
+#xFirst{
+  text-align:center;
+}
+#gameBoard{
+  margin: 0 auto;
+  height:608px;
+  width:608px;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.gameSpot{
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.gameSpot:hover{
+  cursor:pointer;
+}
+#spot1{
+  border-right:2px solid white;
+  border-bottom:2px solid white;
+}
+#spot2{
+  border-right:2px solid white;
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+}
+#spot3{
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+}
+#spot4{
+  border-top:2px solid white;
+  border-right:2px solid white;
+  border-bottom:2px solid white;
+}
+#spot5{
+  border:2px solid white;
+}
+#spot6{
+  border-top:2px solid white;
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+}
+#spot7{
+  border-top:2px solid white;
+  border-right:2px solid white;
+}
+#spot8{
+  border-top:2px solid white;
+  border-left:2px solid white;
+  border-right:2px solid white;
+}
+#spot9{
+  border-left:2px solid white;
+  border-top:2px solid white;
+}
+#victoryScreen{
+  font-size:1.5em;
+  text-align: center;
+  border: 3px dashed white;
+  border-radius:3px;
+  margin: 0 10%;
+}

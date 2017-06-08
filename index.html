@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>With a Tic and  Tac FCC</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='container'>
+  <div id='title'>Tic-Tac-Toe</div>
+  <div id='playerSelect'>
+    <p id='playerText'>Select number of players.</p>
+    <div class='buttonBox'>
+      <button class='btn playerBtn' id='onePlayer' value='1'>One Player</button>
+      <button class='btn playerBtn' id='twoPlayer' value='2'>Two Players</button>
+    </div>
+  </div>
+  <div id='xoSelect' class='hide'>
+    <p id='xoText'>Would you like to be Xs or Os?</p>
+    <div class='buttonBox'>
+      <button class='btn xoBtn' id='xSelect' value='X'>X</button>
+      <button class='btn xoBtn' id='oSelect' value='O'>O</button>
+    </div>
+  </div>
+  <div id='tBoard' class='hide'>
+    <p id='xFirst'>X Goes First!</p>
+    <div id='gameBoard'>
+      <div class='gameSpot' id='spot1' value='0'> </div>
+      <div class='gameSpot' id='spot2' value='1'> </div>
+      <div class='gameSpot' id='spot3' value='2'> </div>
+      <div class='gameSpot' id='spot4' value='3'></div>
+      <div class='gameSpot' id='spot5' value='4'> </div>
+      <div class='gameSpot' id='spot6' value='5'> </div>
+      <div class='gameSpot' id='spot7' value='6'> </div>
+      <div class='gameSpot' id='spot8' value='7'> </div>
+      <div class='gameSpot' id='spot9' value='8'> </div>
+      
+      
+    
+    </div>
+  </div>
+  <div id='victoryScreen' class='hide'>
+    <p id='vicString'>X Wins!</p>
+    <button class='btn' id='resetBtn'>Restart?</button>
+  </div>
+
+
+  
+</div>
+<!--<div id='footy'><p id='foot'>//Credits to Mattiamc for background image</p></div>-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
